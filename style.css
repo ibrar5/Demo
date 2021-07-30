@@ -1,85 +1,108 @@
 body {
     text-align: center;
 }
+
 #logo {
     height: 45px;
     width: auto;
     margin-top: -2px;
 }
+
 #sobi {
     width: 100%;
 }
+
 section {
     margin-bottom: 20px;
 }
+
 p {
     font-size: 19px;
 }
+
 table {
     width: 1100px;
 }
+
 .no {
     width: 150px;
 }
+
 .name {
     width: 500px;
 }
-table a{
+
+table a {
     color: black;
     font-size: 20px;
     margin-top: 50px;
 }
-table a:hover{
+
+table a:hover {
     color: darkblue;
 }
+
 .red {
     color: red;
 }
-.red a{
+
+.red a {
     color: red;
 }
+
 .my_nav_bar {
     position: sticky;
     top: 0;
     z-index: 9999;
 }
+
 .navbar-brand {
     margin-top: -10px;
 }
+
 div a {
     color: white;
     font-family: fantasy;
     font-size: 20px;
 }
-table a{
+
+table a {
     color: black;
     font-family: cursive;
 }
+
 .navbar-brand {
     margin-top: -10px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 50px;
     width: 150px;
 }
-.big{
+
+.big {
     font-size: 19px;
 }
+
 .n {
     font-family: cursive;
 }
+
 table a {
     margin-top: -0px;
 }
+
 .line {
     height: 3px;
     width: 100px;
     margin-right: 5px;
     background-color: black;
 }
+
 .part {
     margin-right: 6px;
 }
+
 .ab {
     font-size: 20px;
     font-family: Cursive;
@@ -87,6 +110,21 @@ table a {
     text-decoration: none;
     font-weight: 800;
 }
+
 .ty {
-    font-size:20px;
+    font-size: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+marquee {
+    margin-top: -300px;
+    margin-bottom: 250px;
+    color: white;
+    font-size: 35px;
+    width: 900px;
+    font-weight: 700;
 }
