@@ -20,10 +20,16 @@ table {
     margin-bottom: 25px;
 }
 .no {
-    width: 150px;
+    width: 200px;
 }
 .name {
     width: 450px;
+}
+.rd{
+    width: 200px;
+}
+.type{
+    width: 100px;
 }
 table a{
     color: black;
@@ -89,6 +95,7 @@ table a {
     color: black;
     text-decoration: none;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 .ty {
     font-size:20px;
@@ -144,13 +151,67 @@ marquee {
         width: 250px;
         border: 0px;
     }
+    .container {
+        margin-left: 0;
+    }
+    .pagination{
+        margin-left: 0px;;
+    }
 }
-@media (min-width: 575px) {
+@media (min-width: 576px) {
     audio {
         width: 350px;
         border: 0px;
     }
+    .container{
+        margin-left: 80px;
+    }
+    .pagination{
+        margin-left: 300px;;
+    }
 }
 #dub {
     display: none;
+}
+blockquote {
+    margin-bottom: 25px;
+}
+@media (max-width: 800px) {
+    .container {
+        margin-left: 0;
+    }
+    #imp {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+}
+@media (min-width: 801px) {
+    .container{
+        margin-left: 0px;
+    }
+}
+#imp {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.page-header {
+    font-family: 'mate', serif;
+}
+#impc {
+    margin-top: -40px;
+}
+.med {
+    
+    margin-top: -20px;
+}
+#cobi {
+    display: none;
+}
+.imge {
+    width: 100%;
+}
+audio{
+    outline: none;
+    color: black;
 }
